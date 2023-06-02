@@ -1,0 +1,53 @@
+
+.gridPage{
+    width: 100%;
+    padding: 1.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background-image: url(https://thumbs.dreamstime.com/b/illustration-deep-space-spacex-logo-over-vector-planet-195641418.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gridData{
+    height: 250px;
+    width: 200px;
+    /* box-shadow: 0 0 10px red; */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transition: 1s;
+    background-image: url("https://www.universetoday.com/wp-content/uploads/2017/02/dragoncrew.8k.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.overLay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.715);
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.gridData:hover{
+    background-position: center;
+}
+
+a{
+    text-decoration: none;
+    
+}

@@ -1,0 +1,37 @@
+
+.LandingPage{
+    height: 550px;
+  width: 99%;
+}
+
+.carousel-root {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .carousel-slider {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .slider-wrapper {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .slider {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .slide {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .slide img {
+    height: 100%;
+    width: 100%;
+  }
+
+  
