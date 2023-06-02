@@ -17,8 +17,8 @@
 
 
 .detailsContainer{
-    height: 50%;
-    width: 45%;
+    /* height: 60%; */
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 10px;

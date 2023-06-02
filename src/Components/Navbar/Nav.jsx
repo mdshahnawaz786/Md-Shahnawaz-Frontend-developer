@@ -10,7 +10,6 @@ const Nav = () => {
   const { gridData } = useSelector((initial) => {
     return initial;
   });
-  console.log(gridData);
 
   const [state, setState] = useState("");
   const [searchResult, setSearchResult] = useState([]);
@@ -36,12 +35,12 @@ const Nav = () => {
         </div>
         <div className="rightNav">
           <Link to="/">
-            <h3>Home</h3>
+            <h2 >Home</h2>
           </Link>
           <div className="inputNav">
             <input
               value={state}
-              placeholder="search by Capsule Type: eg:-Dragon 1.1"
+              placeholder="Capsule Type: eg:-Dragon 1.1"
               type="text"
               onChange={(e) => {
                 setState(e.target.value);
