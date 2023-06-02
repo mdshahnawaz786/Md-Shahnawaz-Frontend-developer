@@ -13,8 +13,6 @@ const reducer = (initial={gridData :[],searchedData:[]}, action)=>{
         }
     }
 
-
-
     return initial
 }
 
